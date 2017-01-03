@@ -49,12 +49,4 @@ public abstract class TFTPConnection {
         }
         return false;
     }
-
-    protected static void sendDatagram(DatagramSocket socket, DatagramPacket datagramPacket, boolean simulateDrop, int number) throws IOException {
-        if (!sendDatagram(socket, datagramPacket, simulateDrop)) {
-        }
-        else {
-            //System.out.println("Sent packet " + number);
-        }
-    }
 }
